@@ -39,6 +39,7 @@ public class TestBase {
     wd.quit();
   }
 
+
   public void fillForm(String nameOfTeam, By locatorTeamType) {
     type(By.cssSelector("[class='_1CLyNodCAa-vQi']"), nameOfTeam);
     click(By.id("teamTypeSelect"));
